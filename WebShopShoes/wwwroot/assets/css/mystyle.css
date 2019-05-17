@@ -1,0 +1,31 @@
+/*
+Template Name: Upbond Admin
+File: Main Css File
+*/
+/*  Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,600,700');
+/*
+  - General
+  - Bootstrap Custom
+  - Alerts
+  - Alerts
+  - Helper Classes
+  - Waves Effect
+  - Animation
+*/
+/* ==============
+  General
+===================*/
+.control-label {
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.text-danger {
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.form-group{
+    margin-top:10px;
+}

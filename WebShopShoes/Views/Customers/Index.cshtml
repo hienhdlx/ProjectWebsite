@@ -1,0 +1,120 @@
+﻿@model IEnumerable<WebShopShoes.Models.Customers>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+
+<div class="">
+    <div class="page-header-title">
+        <h3 class="page-title">Màu sắc</h3>
+    </div>
+</div>
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Thêm mới</a>
+</p>
+<table class="table table-bordered" style="text-align:center">
+
+    <thead class="thead-dark">
+        <tr>
+            <th style="text-align:center" scope="col">Họ và tên</th>
+            <th style="text-align:center" scope="col">Tên đăng nhập</th>
+            <th style="text-align:center" scope="col">Mật khẩu</th>
+            <th style="text-align:center" scope="col">Email</th>
+            <th style="text-align:center" scope="col">Địa chỉ</th>
+            <th scope="col">Điện thoại</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody class="thead-light">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Username)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"><i class="fas fa-info-circle"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"><i class="fas fa-trash-alt"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script src="~/js/admin.common.js"></script>
+@*<script>
+        $(document).ready(function () {
+            debugger;
+            dataSource = new kendo.data.DataSource({
+                transport: {
+                    read: {
+                        url: "/Customers/Index",
+                        dataType: "json",
+                        type: "POST",
+                    }
+                },
+                pageSize: 10,
+                serverPaging: true,
+                serverFiltering: true,
+                serverSorting: true
+            })
+            $("#datatable").kendoGrid({
+                autoBind: false,
+                dataSource: dataSource,
+                height: 550,
+                groupable: true,
+                sortable: true,
+                pageable: {
+                    refresh: true,
+                    pageSizes: true,
+                    buttonCount: 5
+                },
+                columns: [
+                    {
+                        field: "FullName",
+                        title: "Tên đầy đủ"
+                    }, {
+                        field: "Username",
+                        title: "Tên đăng nhập"
+                    }, {
+                        field: "Password",
+                        title: "Mật khẩu"
+                    }, {
+                        field: "Email",
+                        title: "Email"
+                    }, {
+                        field: "Address",
+                        title: "Địa chỉ"
+                    }, {
+                        field: "Phone",
+                        title: "Điên thoại"
+                    }, {
+                        field: "IdRole",
+                        title: "Quyền"
+                    }, {
+                        field: "CreateDate",
+                        title: "Ngày tạo"
+                    }
+                ]
+            })
+        });
+    </script>*@
+
