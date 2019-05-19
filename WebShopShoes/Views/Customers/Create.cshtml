@@ -5,7 +5,6 @@
     Layout = "~/Views/Share/_Layout.cshtml";
 }
 <link href="~/assets/css/mystyle.css" rel="stylesheet" type="text/css">
-<h1>Create</h1>
 
 <h4>Thêm mới khách hàng</h4>
 <hr />
@@ -15,94 +14,95 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <div class="col-md-4">
+                <div class="col-md-4 form-create">
                     <label asp-for="FullName" class="control-label">Họ và tên</label>
                 </div>
-                <div class="col-md-7">
-                    <input asp-for="FullName" class="form-control" />
+                <div class="col-md-7 form-create">
+                    <input autocomplete="off" asp-for="FullName" class="form-control" />
                 </div>
                 <span asp-validation-for="FullName" class="text-danger">*</span>
             </div>
-
-            <div class="form-group">
-                <div class="col-md-4">
+            <br />
+            <div class="form-group form-create">
+                <div class="col-md-4 form-create">
                     <label asp-for="Username" class="control-label">Tên đăng nhập</label>
                 </div>
-                <div class="col-md-7">
-                    <input asp-for="Username" class="form-control" />
+                <div class="col-md-7 form-create">
+                    <input autocomplete="off" asp-for="Username" class="form-control" />
                 </div>
                 <span asp-validation-for="Username" class="text-danger">*</span>
             </div>
 
-            <div class="form-group">
-                <div class="col-md-4">
+            <div class="form-group form-create">
+                <div class="col-md-4 form-create">
                     <label asp-for="Password" class="control-label">Mật khẩu</label>
                 </div>
-                <div class="col-md-7">
-                    <input asp-for="Password" class="form-control" />
+                <div class="col-md-7 form-create">
+                    <input type="password" asp-for="Password" autocomplete="off" class="form-control" />
                 </div>
                 <span asp-validation-for="Password" class="text-danger">*</span>
             </div>
 
-            <div class="form-group">
-                <div class="col-md-4">
+            <div class="form-group form-create">
+                <div class="col-md-4 form-create">
                     <label asp-for="Email" class="control-label">Email</label>
                 </div>
-                <div class="col-md-7">
-                    <input asp-for="Email" class="form-control" />
+                <div class="col-md-7 form-create">
+                    <input asp-for="Email" class="form-control"  autocomplete="off"/>
                 </div>
                 <span asp-validation-for="Email" class="text-danger">*</span>
             </div>
 
-            <div class="form-group">
-                <div class="col-md-4">
+            <div class="form-group form-create">
+                <div class="col-md-4 form-create">
                     <label asp-for="Address" class="control-label">Địa chỉ</label>
                 </div>
-                <div class="col-md-7">
-                    <input asp-for="Address" class="form-control" />
+                <div class="col-md-7 form-create">
+                    <input asp-for="Address" class="form-control" autocomplete="off" />
                 </div>
                 <span asp-validation-for="Address" class="text-danger">*</span>
             </div>
 
-            <div class="form-group">
-                <div class="col-md-4">
+            <div class="form-group form-create">
+                <div class="col-md-4 form-create">
                     <label asp-for="Phone" class="control-label">Điện thoại</label>
                 </div>
-                <div class="col-md-7">
-                    <input asp-for="Phone" class="form-control" />
+                <div class="col-md-7 form-create">
+                    <input asp-for="Phone" class="form-control" autocomplete="off" />
                 </div>
                 <span asp-validation-for="Phone" class="text-danger">*</span>
             </div>
 
-            <div class="form-group">
-                <div class="col-md-4">
-                    <label asp-for="IdRole" class="control-label">Điện thoại</label>
+            <div class="form-group form-create">
+                <div class="col-md-4 form-create">
+                    <label asp-for="IdRole" class="control-label">Quyền</label>
                 </div>
-                <div class="col-md-7">
-                    <input asp-for="IdRole" class="form-control" />
+                <div class="col-md-7 form-create">
+                    <input asp-for="IdRole" class="form-control" autocomplete="off" />
                 </div>
                 <span asp-validation-for="IdRole" class="text-danger">*</span>
             </div>
 
-            @*<div class="form-group">
+            <div class="form-group">
                 <div class="col-md-4">
-                    <label asp-for="CreateDate" class="control-label">Điện thoại</label>
+                    <label asp-for="Image" class="control-label">Ảnh đại diện</label>
                 </div>
                 <div class="col-md-7">
-                    <input asp-for="CreateDate" class="form-control" />
+                    <input asp-for="Image" type="file" class="form-control" />
                 </div>
-                <span asp-validation-for="CreateDate" class="text-danger">*</span>
-            </div>*@
+                <span asp-validation-for="Image" class="text-danger">*</span>
+            </div>
 
             
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="col-md-8 form-create">
+                <button style="float:right; width: 130px; height: 48px; font-size: 20px" type="submit" class="btn btn-primary"><i class="fas fa-user-tie">  Thêm mới</i></button>
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <button style="width: 211px; height: 48px; font-size: 20px" type="submit" class="btn btn-primary"><i class="fas fa-arrow-left">  <a asp-action="Index" style="color:whitesmoke">Quay lại danh sách</a></i></button>
+
 </div>
 

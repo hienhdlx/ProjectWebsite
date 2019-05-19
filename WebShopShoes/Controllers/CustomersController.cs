@@ -23,11 +23,7 @@ namespace WebShopShoes.Controllers
         {
             return View(await _context.Customers.ToListAsync());
         }
-        [HttpPost]
-        public async Task<IActionResult> Index(Customers customers) 
-        {
-            return Json(await _context.Customers.ToListAsync());
-        }
+        
 
         // GET: Customers/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -58,7 +54,7 @@ namespace WebShopShoes.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FullName,Username,Password,Email,Address,Phone,IdRole,CreateDate")] Customers customers)
+        public async Task<IActionResult> Create([Bind("Id,FullName,Username,Password,Email,Address,Phone,IdRole,CreateDate,Image")] Customers customers)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +86,7 @@ namespace WebShopShoes.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FullName,Username,Password,Email,Address,Phone,IdRole,CreateDate")] Customers customers)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FullName,Username,Password,Email,Address,Phone,IdRole,CreateDate,Image")] Customers customers)
         {
             if (id != customers.Id)
             {

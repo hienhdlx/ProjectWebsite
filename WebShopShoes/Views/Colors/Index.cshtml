@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WebShopShoes.Models.Color>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+<div class="">
+    <div class="page-header-title">
+        <h3 class="page-title">Danh sách màu sắc</h3>
+    </div>
+</div>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Thêm mới</a>
+</p>
+<table class="table table-bordered" style="text-align: center">
+    <thead class="thead-dark">
+        <tr>
+            <th style="text-align:center" scope="col">Tên màu</th>
+            <th style="text-align:center" scope="col">Mã màu</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NameColor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodeColor)
+                </td>
+                <td width="150px">
+                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"><i class="fas fa-info-circle"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"><i class="fas fa-trash-alt"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

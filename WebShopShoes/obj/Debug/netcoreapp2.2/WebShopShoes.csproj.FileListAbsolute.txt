@@ -64,3 +64,40 @@ E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netc
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.csproj.CopyComplete
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Color\Index.g.cshtml.cs
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Color\Create.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.deps.json
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.runtimeconfig.json
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.runtimeconfig.dev.json
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.dll
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.pdb
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.Views.dll
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.Views.pdb
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.csprojAssemblyReference.cache
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.csproj.CoreCompileInputs.cache
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.RazorAssemblyInfo.cache
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.RazorAssemblyInfo.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.AssemblyInfoInputs.cache
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.AssemblyInfo.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.TagHelpers.input.cache
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.TagHelpers.output.cache
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.RazorCoreGenerate.cache
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Create.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Delete.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Details.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Edit.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Index.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Home\Primary.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Share\_Layout.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.RazorTargetAssemblyInfo.cache
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.RazorTargetAssemblyInfo.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.Views.pdb
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.dll
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.pdb
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.csproj.CopyComplete
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Create.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Delete.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Details.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Edit.g.cshtml.cs
+F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Index.g.cshtml.cs

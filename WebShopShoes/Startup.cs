@@ -36,11 +36,9 @@ namespace WebShopShoes
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            var connection = @"Server=DESKTOP-23PLBG0\SQLEXPRESS;Database=ShopGiay;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = @"Server=DESKTOP-DILLT61\SQLEXPRESS;Database=ShopGiay;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<ShopGiayContext>(options => options.UseSqlServer(connection));
-            //services.AddDbContext<ShopGiayContext>(options =>
-            //options.UseSqlServer(
-            //Configuration.GetConnectionString("ShopconnectString")));
+            
         }
 
 

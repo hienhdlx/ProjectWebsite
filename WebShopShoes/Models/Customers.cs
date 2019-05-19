@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace WebShopShoes.Models
 {
@@ -9,6 +10,7 @@ namespace WebShopShoes.Models
         {
             Comments = new HashSet<Comments>();
             Role = new HashSet<Role>();
+            CreateDate = DateTime.Now;
         }
 
         public int Id { get; set; }
@@ -20,6 +22,8 @@ namespace WebShopShoes.Models
         public string Phone { get; set; }
         public int? IdRole { get; set; }
         public DateTime? CreateDate { get; set; }
+        [Required(ErrorMessage ="Bạn cần có ảnh đại diện")]
+        public string Image { get; set; }
 
         public virtual ICollection<Comments> Comments { get; set; }
         public virtual ICollection<Role> Role { get; set; }

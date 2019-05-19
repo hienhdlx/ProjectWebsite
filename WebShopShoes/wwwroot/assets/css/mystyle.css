@@ -29,3 +29,19 @@ File: Main Css File
 .form-group{
     margin-top:10px;
 }
+.col-md-7.form-create {
+    padding-top: 15px;
+}
+.col-md-4.form-create {
+    padding-top: 15px;
+}
+.col-md-8.form-create {
+    padding-top: 15px;
+}
+.col-sm-10.form-detail{
+    padding-top:10px;
+}
+.col-sm-2.form-detail {
+    padding-top: 10px;
+}
+

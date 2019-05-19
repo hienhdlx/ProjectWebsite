@@ -1,0 +1,48 @@
+﻿@model WebShopShoes.Models.Color
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+<link href="~/assets/css/mystyle.css" rel="stylesheet" type="text/css">
+
+
+<h4>Thêm mới màu</h4>
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <div class="col-md-4 form-create">
+                    <label asp-for="NameColor" class="control-label">Tên màu</label>
+                </div>
+                <div class="col-md-7 form-create">
+                    <input autocomplete="off" asp-for="NameColor" class="form-control" />
+                </div>
+                <span asp-validation-for="NameColor" class="text-danger">*</span>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-4 form-create">
+                    <label asp-for="CodeColor" class="control-label">Mã màu</label>
+                </div>
+                <div class="col-md-7 form-create">
+                    <input id="checkcode" autocomplete="off" type="color" class="form-control" asp-for="CodeColor" />
+                </div>
+                <span asp-validation-for="CodeColor" class="text-danger">*</span>
+            </div>
+
+            <div class="col-md-8 form-create">
+                <button id="btnsave" style="float: right; width: 142px; height: 48px; font-size: 20px" type="submit" class="btn btn-primary"><i class="fas fa-palette">  Thêm mới</i></button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <button  style="width: 211px; height: 48px; font-size: 20px" type="submit" class="btn btn-primary"><i class="fas fa-arrow-left">  <a asp-action="Index" style="color:whitesmoke">Quay lại danh sách</a></i></button>
+</div>
+
+

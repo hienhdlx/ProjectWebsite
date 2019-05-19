@@ -1,0 +1,35 @@
+﻿@model WebShopShoes.Models.Color
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+    <link href="~/assets/css/mystyle.css" rel="stylesheet" type="text/css">
+<h2>Xóa màu</h2>
+
+<h3>Bạn có chắc chắn xóa bản ghi này ?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2 form-detail">
+            Tên màu
+        </dt>
+        <dd class="col-sm-10 form-detail">
+            @Html.DisplayFor(model => model.NameColor)
+        </dd>
+        <dt class="col-sm-2 form-detail">
+            Mã màu
+        </dt>
+        <dd class="col-sm-10 form-detail">
+            @Html.DisplayFor(model => model.CodeColor)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+
+        <button style="width: 82px; height: 47px; font-size: 20px" type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"> Xóa</i></button> |
+
+        <button style="width: 211px; height: 48px; font-size: 20px" type="submit" class="btn btn-primary"><i class="fas fa-arrow-left">  <a asp-action="Index" style="color: whitesmoke">Quay lại danh sách</a></i></button>
+    </form>
+</div>

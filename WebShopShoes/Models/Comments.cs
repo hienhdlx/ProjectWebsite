@@ -5,6 +5,10 @@ namespace WebShopShoes.Models
 {
     public partial class Comments
     {
+        public Comments()
+        {
+            CreateDate = DateTime.Now;
+        }
         public int Id { get; set; }
         public int? IdCustomer { get; set; }
         public string Content { get; set; }
