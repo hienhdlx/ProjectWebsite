@@ -18,11 +18,13 @@
 
     <thead class="thead-dark">
         <tr>
+            <th style="text-align:center" scope="col">Ảnh đại diện</th>
             <th style="text-align:center" scope="col">Họ và tên</th>
             <th style="text-align:center" scope="col">Tên đăng nhập</th>
             <th style="text-align:center" scope="col">Mật khẩu</th>
             <th style="text-align:center" scope="col">Email</th>
             <th style="text-align:center" scope="col">Địa chỉ</th>
+            <th style="text-align:center" scope="col">Điện thoại</th>
             <th></th>
         </tr>
     </thead>
@@ -30,6 +32,9 @@
         @foreach (var item in Model)
         {
             <tr>
+                <td>
+                    <img style="width: 70px; height: 70px" src="~/Images/@item.Image" />
+                </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.FullName)
                 </td>

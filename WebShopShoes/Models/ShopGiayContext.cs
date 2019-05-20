@@ -65,7 +65,9 @@ namespace WebShopShoes.Models
             modelBuilder.Entity<Customers>(entity =>
             {
                 entity.Property(e => e.Address).HasMaxLength(255);
-                entity.Property(e => e.Image).HasMaxLength(50);
+                entity.Property(e => e.Image)
+                    .HasMaxLength(50)
+                    .IsRequired();
                 entity.Property(e => e.CreateDate).HasColumnType("datetime");
 
                 entity.Property(e => e.Email)

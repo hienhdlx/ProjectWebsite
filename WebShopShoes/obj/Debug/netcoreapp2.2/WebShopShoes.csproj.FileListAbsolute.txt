@@ -62,8 +62,6 @@ E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netc
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.dll
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.pdb
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\WebShopShoes.csproj.CopyComplete
-E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Color\Index.g.cshtml.cs
-E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Color\Create.g.cshtml.cs
 F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.deps.json
 F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.runtimeconfig.json
 F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\bin\Debug\netcoreapp2.2\WebShopShoes.runtimeconfig.dev.json
@@ -101,3 +99,8 @@ F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcorea
 F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Details.g.cshtml.cs
 F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Edit.g.cshtml.cs
 F:\ASP.net Core\Project\ShopShoes\ProjectWebsite\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Index.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Create.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Delete.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Details.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Edit.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Index.g.cshtml.cs

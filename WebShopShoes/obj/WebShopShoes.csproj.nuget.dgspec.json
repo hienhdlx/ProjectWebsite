@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP.net Core\\Project\\ShopShoes\\ProjectWebsite\\WebShopShoes\\WebShopShoes.csproj": {}
+    "E:\\to-do-learn\\Asp.netCore\\WebShopShoes\\WebShopShoes\\WebShopShoes\\WebShopShoes.csproj": {}
   },
   "projects": {
-    "F:\\ASP.net Core\\Project\\ShopShoes\\ProjectWebsite\\WebShopShoes\\WebShopShoes.csproj": {
+    "E:\\to-do-learn\\Asp.netCore\\WebShopShoes\\WebShopShoes\\WebShopShoes\\WebShopShoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.net Core\\Project\\ShopShoes\\ProjectWebsite\\WebShopShoes\\WebShopShoes.csproj",
+        "projectUniqueName": "E:\\to-do-learn\\Asp.netCore\\WebShopShoes\\WebShopShoes\\WebShopShoes\\WebShopShoes.csproj",
         "projectName": "WebShopShoes",
-        "projectPath": "F:\\ASP.net Core\\Project\\ShopShoes\\ProjectWebsite\\WebShopShoes\\WebShopShoes.csproj",
-        "packagesPath": "C:\\Users\\Tran Hien\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.net Core\\Project\\ShopShoes\\ProjectWebsite\\WebShopShoes\\obj\\",
+        "projectPath": "E:\\to-do-learn\\Asp.netCore\\WebShopShoes\\WebShopShoes\\WebShopShoes\\WebShopShoes.csproj",
+        "packagesPath": "C:\\Users\\hien.tranvan\\.nuget\\packages\\",
+        "outputPath": "E:\\to-do-learn\\Asp.netCore\\WebShopShoes\\WebShopShoes\\WebShopShoes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tran Hien\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hien.tranvan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
