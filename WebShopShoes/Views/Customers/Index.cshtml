@@ -1,5 +1,6 @@
-﻿@model IEnumerable<WebShopShoes.Models.Customers>
-
+﻿@model PagedList.IPagedList<WebShopShoes.Models.Customers>
+@using PagedList.Mvc;
+@using PagedList;
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Share/_Layout.cshtml";
@@ -64,4 +65,12 @@
     </tbody>
 </table>
 <script src="~/js/admin.common.js"></script>
+<!--thêm mã phân trang-->
+<br />
+<div class="col-md-12 text-center clear-both">
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
 
+    @*@Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page }));*@
+</div>
+<!--kết thúc-->

@@ -1,0 +1,26 @@
+﻿@model  WebShopShoes.Models.Size
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+    <link href="~/assets/css/mystyle.css" rel="stylesheet" type="text/css">
+<h2>Chi tiết</h2>
+
+<div>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2 form-detail">
+            Tên size
+        </dt>
+        <dd class="col-sm-10 form-detail">
+            @Html.DisplayFor(model => model.NameSize);
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <button style="width: 135px; height: 48px; font-size: 20px" type="submit" class="btn btn-primary"><i class="fas fa-edit">  <a asp-action="Edit" asp-route-id="@Model.Id" style="color: whitesmoke">Chỉnh sửa</a></i></button> |
+
+    <button style="width: 211px; height: 48px; font-size: 20px" type="submit" class="btn btn-primary"><i class="fas fa-arrow-left">  <a asp-action="Index" style="color: whitesmoke">Quay lại danh sách</a></i></button>
+
+</div>

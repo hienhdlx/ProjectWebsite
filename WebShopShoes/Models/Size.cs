@@ -11,7 +11,7 @@ namespace WebShopShoes.Models
         }
 
         public int Id { get; set; }
-        public string NameSize { get; set; }
+        public int NameSize { get; set; }
 
         public virtual ICollection<Model> Model { get; set; }
     }

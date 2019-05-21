@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[2019.2.514, )"
             },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -67,6 +71,22 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[2.2.3, )"
+            },
+            "PagedList.Mvc": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "X.PagedList.Mvc": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[7.6.0, )"
             }
           },
           "imports": [

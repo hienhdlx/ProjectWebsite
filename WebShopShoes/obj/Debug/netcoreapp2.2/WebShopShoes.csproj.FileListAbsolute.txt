@@ -104,3 +104,8 @@ E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netc
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Details.g.cshtml.cs
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Edit.g.cshtml.cs
 E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Colors\Index.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Sizes\Index.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Sizes\Details.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Sizes\Create.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Sizes\Edit.g.cshtml.cs
+E:\to-do-learn\Asp.netCore\WebShopShoes\WebShopShoes\WebShopShoes\obj\Debug\netcoreapp2.2\Razor\Views\Sizes\Delete.g.cshtml.cs
