@@ -19,34 +19,12 @@ namespace WebShopShoes.Controllers
             _context = context;
         }
 
-
-        //public ActionResult Index(int? page)
-        //{
-        //    if (page == null)
-        //        page = 1;
-        //    var customer = (from c in _context.Customers select c).OrderBy(x => x.Id);
-
-        //    int pageSize = 3;
-
-        //    int pageNumber = (page ?? 1);
-        //    return View(customer.ToPagedList(pageNumber, pageSize));
-        //}
-
-        // GET: Customers
-        public async Task<IActionResult> Index(int? page)
+        public async Task<IActionResult> Index()
         {
-            if (page == null)
-                page = 1;
-            //var customers = (from c in _context.Customers select c).OrderBy(x => x.Id);
-            var customers = await _context.Customers.ToListAsync();
-            int pageSize = 3;
-
-            int pageNumber = (page ?? 1);
-            //var customer =  _context.Customers.OrderByDescending(x => x.Id).ToPagedList(page ?? 1, 20);
-            ViewBag.OnePageOfProducts = customers.ToPagedList(pageNumber, pageSize);
-            return View();
+            var customer = await _context.Customers.ToListAsync();
+            return View(customer);
         }
-        
+
 
         // GET: Customers/Details/5
         public async Task<IActionResult> Details(int? id)

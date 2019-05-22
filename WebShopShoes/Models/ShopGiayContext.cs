@@ -162,6 +162,10 @@ namespace WebShopShoes.Models
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
+                entity.Property(e => e.NameProduct)
+                .HasMaxLength(250)
+                .IsRequired();
+
                 entity.Property(e => e.Price)
                     .IsRequired()
                     .HasMaxLength(50)

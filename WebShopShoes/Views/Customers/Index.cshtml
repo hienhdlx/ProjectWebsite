@@ -1,4 +1,4 @@
-﻿@model PagedList.IPagedList<WebShopShoes.Models.Customers>
+﻿@model IEnumerable<WebShopShoes.Models.Customers>
 @using PagedList.Mvc;
 @using PagedList;
 @{
@@ -68,9 +68,7 @@
 <!--thêm mã phân trang-->
 <br />
 <div class="col-md-12 text-center clear-both">
-    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
 
-    @*@Html.PagedListPager(Model, page => Url.Action("Index",
-        new { page }));*@
+    
 </div>
 <!--kết thúc-->

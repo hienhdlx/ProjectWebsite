@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace WebShopShoes.Models
 {
     public partial class Product
     {
         public int Id { get; set; }
+        [Required]
+        [MaxLength(250)]
+        public string NameProduct { get; set; }
         public int IdModel { get; set; }
         public string Image { get; set; }
         public string Price { get; set; }

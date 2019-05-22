@@ -1,0 +1,128 @@
+﻿@model WebShopShoes.Models.Product
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+    <link href="~/assets/css/mystyle.css" rel="stylesheet" type="text/css">
+
+<h4>Thêm mới sản phẩm</h4>
+<hr />
+
+<div class="row form-content">
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <div class="col-md-4 form-create">
+                    <label asp-for="NameProduct" class="control-label">Tên sản phẩm</label>
+                </div>
+                <div class="col-md-7 form-create">
+                    <input autocomplete="off" asp-for="NameProduct" class="form-control" />
+                </div>
+                <span asp-validation-for="NameProduct" class="text-danger">*</span>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-4 form-create">
+                    <label asp-for="Price" class="control-label">Giá</label>
+                </div>
+                <div class="col-md-7 form-create">
+                    <input autocomplete="off" asp-for="Price" class="form-control" />
+                </div>
+                <span asp-validation-for="Price" class="text-danger">*</span>
+            </div>
+
+            <div class="form-group input-group">
+                <div class="col-md-3 form-create">
+                    <label asp-for="Image" style="padding-right: 54px" class="control-label">Upload Image</label>
+                </div>
+                <div class="col-md-7 form-create btn-file">
+                    <input type="file" id="imgid" asp-for="Image" style="padding-top: 0px;float: left;width: 192px;" />
+                </div>
+                <div class="col-md-2">
+                    <img style="width: 70px; height: 70px; float: right" id="img-upload" />
+                    <span asp-validation-for="Image" class="text-danger">*</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-4 form-create">
+                    <label asp-for="Sale" class="control-label">Giá</label>
+                </div>
+                <div class="col-md-7 form-create">
+                    <input autocomplete="off" asp-for="Sale" class="form-control" />
+                </div>
+                <span asp-validation-for="Sale" class="text-danger">*</span>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-4 form-create">
+                    <label asp-for="StartTime" class="control-label">Giá</label>
+                </div>
+                <div class="col-md-7 form-create">
+                    <input type="datetime" asp-for="StartTime" class="form-control" />
+                </div>
+                <span asp-validation-for="StartTime" class="text-danger">*</span>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-4 form-create">
+                    <label asp-for="EndTime" class="control-label">Giá</label>
+                </div>
+                <div class="col-md-7 form-create">
+                    <input type="datetime" asp-for="EndTime" class="form-control" />
+                </div>
+                <span asp-validation-for="EndTime" class="text-danger">*</span>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-4 form-create">
+                    <label asp-for="EndTime" class="control-label">Giá</label>
+                </div>
+                <div class="col-md-7 form-create">
+                    <input type="datetime" asp-for="EndTime" class="form-control" />
+                </div>
+                <span asp-validation-for="EndTime" class="text-danger">*</span>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(document).on("change", ".btn-file :file", function () {
+            debugger;
+            let input = $(this),
+                lable = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+            input.trigger("fileselect", [lable]);
+        });
+
+        $('.btn-file :file').on('fileselect', function (event, lable) {
+            var input = $(this).parents('.input-group').find(':text'),
+                log = lable;
+
+            if (input.length) {
+                input.val(log);
+            } else {
+                if (log)
+                    alert(log);
+            }
+
+        });
+        function readUrl(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $("#img-upload").attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $("#imgid").change(function () {
+            readUrl(this);
+        })
+    })
+</script>
